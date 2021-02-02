@@ -1,0 +1,47 @@
+body {
+  background-color: cadetblue;
+}
+.page {
+  width: 80%;
+  max-width: 960px;
+  margin: auto auto;
+  text-align: center;
+}
+header {
+  font-size: 21px;
+  line-height: 28px;
+}
+h4 {
+  font-size: 16px;
+}
+h4 #clock {
+  font-size: 36px;
+  display: block;
+  padding: 5px 0px;
+}
+#lol_cat_image {
+  border-radius: 75px;
+  border: 10px solid;
+  margin: 0px 0px 5px 0px;
+  max-width: 30em;
+}
+blockquote {
+  text-shadow: 2px 2px #000;
+  margin: -80px 0 100px 0;
+  color: #fff;
+}
+#wake_up_time_selector,
+#lunch_time_selector,
+#nap_time_selector {
+  padding: 2px 5px;
+}
+#party_time_button {
+  background-color: rgb(58, 35, 58);
+  width: 150px;
+  font-size: 18px;
+  color: rgb(135, 122, 122);
+  border-radius: 5px;
+}
+footer {
+  font-size: 16px;
+}

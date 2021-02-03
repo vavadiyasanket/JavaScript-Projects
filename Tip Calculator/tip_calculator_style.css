@@ -1,0 +1,99 @@
+body {
+  background-image: linear-gradient(
+    to right,
+    rgba(227, 11, 235, 0.5),
+    rgb(113, 45, 110)
+  );
+  margin: 0;
+}
+#calculator_container {
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 2% 0;
+  height: auto;
+  width: auto;
+  margin: 50px auto;
+  background-image: linear-gradient(rgba(15, 78, 127, 0.8), rgb(30, 156, 255));
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+}
+h1 {
+  color: white;
+  text-align: center;
+  font-family: Courier;
+  font-weight: normal;
+  font-size: 220%;
+  margin: 0;
+  text-transform: uppercase;
+  line-height: 1.1;
+  /*background: steelblue;*/
+  padding: 25px 0;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 100, 100, 0.5),
+    rgba(3, 211, 252, 1)
+  );
+  border-radius: 5px;
+}
+button {
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+  margin: 30px auto;
+  background: linear-gradient(rgba(0, 100, 100, 0.5), rgba(127, 89, 48, 0.8));
+  border-radius: 10px;
+  width: 200px;
+  height: 50px;
+  font-size: 17px;
+  color: white;
+}
+p {
+  padding-left: 20px;
+  margin-left: 20px;
+  text-align: center;
+}
+input {
+  padding-left: 20px;
+  margin-left: 20px;
+}
+#bill_amount,
+#number_of_people {
+  font-size: 14px;
+  color: #2980b9;
+  background-color: #f7f7f7;
+  width: 60%;
+  padding: 5px 5px 8px 8px;
+  margin-left: 125px;
+  text-align: center;
+}
+#number_of_people:focus,
+#bill_amount:focus {
+  background: #fff;
+  border: 3px solid #11958c;
+  outline: none;
+}
+#service_selector {
+  padding: 13px 13px 10px 20px;
+  text-align: center;
+  margin-left: 180px;
+  font-size: 16px;
+}
+#result_display {
+	font-size: 16px;
+	margin-top: auto;
+	text-align: center;
+  }
+  
+  #result_display:before {
+	content: "Tip amount";
+	font-size: 20px;
+	display: block;
+	text-transform: uppercase;
+  }
+  #result_display small {
+	font-size: 20px;
+	font-weight: bold;
+	display: block;
+  }

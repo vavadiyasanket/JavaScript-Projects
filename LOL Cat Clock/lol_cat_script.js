@@ -1,7 +1,7 @@
 var wake_up_time = 7;
 var noon = 12;
 var lunch_time = 12;
-var nap_time = lunch_time + 2;
+var nap_time;
 var party_time;
 var evening = 18;
 
